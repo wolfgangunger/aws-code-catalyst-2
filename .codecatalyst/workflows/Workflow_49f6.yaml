@@ -1,0 +1,68 @@
+Name: CDK_Build
+SchemaVersion: "1.0"
+
+# Optional - Set automatic triggers.
+Triggers:
+  - Type: PUSH
+    Branches:
+      - main
+Actions:
+  CDKBootstrapAction_nn: 
+    Identifier: aws/cdk-bootstrap@v1
+    #DependsOn:
+    #  - action-name
+    Compute:  
+        Type: Lambda 
+        #- Fleet: fleet-name
+    #Timeout: 15
+    Inputs:
+      # Specify a source or an artifact, but not both.
+      Sources:
+        - WorkflowSource 
+      #Artifacts:
+      #  - artifact-name
+    Outputs:
+      Artifacts:
+        - Name: cdk_bootstrap_artifacts
+          Files: 
+            - "cdk.out/**/*"
+    Environment:
+      Name: default_environment
+      Connections:
+        - Name: 243277030071
+          #Role: AWSRoleForCodeCatalystSupport
+          Role: CodeCatalystWorkflowRole
+    Configuration:
+      Region: us-west-2
+
+  Build_f0:
+    Identifier: aws/cdk-deploy@v1
+    DependsOn:
+      - CDKBootstrapAction_nn
+    Compute:  
+      Type: Lambda
+        #- Fleet: fleet-name
+    #Timeout: 15    
+    Inputs:
+      Sources:
+        - WorkflowSource # This specifies that the action requires this workflow as a source
+
+    Outputs:
+      Artifacts:
+        - Name: cdk_artifact
+          Files: 
+            - "cdk.out/**/*"
+
+    Environment:
+      Name: default_environment
+      Connections:
+        - Name: 243277030071
+          #Role: AWSRoleForCodeCatalystSupport
+          Role: CodeCatalystWorkflowRole
+    Configuration:
+          StackName: TodoAppBackendStack-yjcit
+          Region: us-west-2
+          Tags: '{"key1": "value1"}'
+          Context: '{"key1": "value1"}'
+          CdkRootPath: ./
+      #CfnOutputVariables:'[]'

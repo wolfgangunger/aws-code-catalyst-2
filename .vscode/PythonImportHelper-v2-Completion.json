@@ -1,0 +1,783 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "boto3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "boto3",
+        "description": "boto3",
+        "detail": "boto3",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "aws_cdk",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "StackProps",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "CfnOutput",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Construct",
+        "importPath": "constructs",
+        "description": "constructs",
+        "isExtraImport": true,
+        "detail": "constructs",
+        "documentation": {}
+    },
+    {
+        "label": "aws_cdk.aws_lambda",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aws_cdk.aws_lambda",
+        "description": "aws_cdk.aws_lambda",
+        "detail": "aws_cdk.aws_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "aws_cdk.aws_apigateway",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aws_cdk.aws_apigateway",
+        "description": "aws_cdk.aws_apigateway",
+        "detail": "aws_cdk.aws_apigateway",
+        "documentation": {}
+    },
+    {
+        "label": "aws_cdk.aws_dynamodb",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aws_cdk.aws_dynamodb",
+        "description": "aws_cdk.aws_dynamodb",
+        "detail": "aws_cdk.aws_dynamodb",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "urllib3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib3",
+        "description": "urllib3",
+        "detail": "urllib3",
+        "documentation": {}
+    },
+    {
+        "label": "stack_name",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "aws_cdk.assertions",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aws_cdk.assertions",
+        "description": "aws_cdk.assertions",
+        "detail": "aws_cdk.assertions",
+        "documentation": {}
+    },
+    {
+        "label": "PythonStack",
+        "importPath": "python_stack",
+        "description": "python_stack",
+        "isExtraImport": true,
+        "detail": "python_stack",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "mock_dynamodb",
+        "importPath": "moto",
+        "description": "moto",
+        "isExtraImport": true,
+        "detail": "moto",
+        "documentation": {}
+    },
+    {
+        "label": "mock_dynamodb",
+        "importPath": "moto",
+        "description": "moto",
+        "isExtraImport": true,
+        "detail": "moto",
+        "documentation": {}
+    },
+    {
+        "label": "mock_dynamodb",
+        "importPath": "moto",
+        "description": "moto",
+        "isExtraImport": true,
+        "detail": "moto",
+        "documentation": {}
+    },
+    {
+        "label": "mock_dynamodb",
+        "importPath": "moto",
+        "description": "moto",
+        "isExtraImport": true,
+        "detail": "moto",
+        "documentation": {}
+    },
+    {
+        "label": "mock_dynamodb",
+        "importPath": "moto",
+        "description": "moto",
+        "isExtraImport": true,
+        "detail": "moto",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "importPath": "add_todo",
+        "description": "add_todo",
+        "isExtraImport": true,
+        "detail": "add_todo",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "importPath": "delete_todo",
+        "description": "delete_todo",
+        "isExtraImport": true,
+        "detail": "delete_todo",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "importPath": "get_todo",
+        "description": "get_todo",
+        "isExtraImport": true,
+        "detail": "get_todo",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "importPath": "get_todos",
+        "description": "get_todos",
+        "isExtraImport": true,
+        "detail": "get_todos",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "importPath": "update_todo",
+        "description": "update_todo",
+        "isExtraImport": true,
+        "detail": "update_todo",
+        "documentation": {}
+    },
+    {
+        "label": "PythonStack",
+        "importPath": "python.python_stack",
+        "description": "python.python_stack",
+        "isExtraImport": true,
+        "detail": "python.python_stack",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "kind": 2,
+        "importPath": "python.lambda.add_todo",
+        "description": "python.lambda.add_todo",
+        "peekOfCode": "def lambda_handler(event, context):\n    try:\n        logger.info('Event: {}'.format(event))\n        logger.info('Context: {}'.format(context))\n        table_name = os.getenv('DDB_TABLE')\n        if (not table_name):\n            raise Exception('Table name missing') \n        dynamodb = boto3.resource('dynamodb')\n        ddb_table = dynamodb.Table(table_name)\n        try:",
+        "detail": "python.lambda.add_todo",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "python.lambda.add_todo",
+        "description": "python.lambda.add_todo",
+        "peekOfCode": "logger = logging.getLogger()\nlogger.setLevel(logging.INFO)\ndef lambda_handler(event, context):\n    try:\n        logger.info('Event: {}'.format(event))\n        logger.info('Context: {}'.format(context))\n        table_name = os.getenv('DDB_TABLE')\n        if (not table_name):\n            raise Exception('Table name missing') \n        dynamodb = boto3.resource('dynamodb')",
+        "detail": "python.lambda.add_todo",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "kind": 2,
+        "importPath": "python.lambda.delete_todo",
+        "description": "python.lambda.delete_todo",
+        "peekOfCode": "def lambda_handler(event, context):\n    try:\n        logger.info('Event: {}'.format(event))\n        logger.info('Context: {}'.format(str(context)))\n        table_name = os.getenv('DDB_TABLE')\n        if (not table_name):\n            raise Exception('Table name missing') \n        try:\n            id = event['pathParameters']['id']\n        except Exception as error:",
+        "detail": "python.lambda.delete_todo",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "python.lambda.delete_todo",
+        "description": "python.lambda.delete_todo",
+        "peekOfCode": "logger = logging.getLogger()\nlogger.setLevel(logging.INFO)\ndef lambda_handler(event, context):\n    try:\n        logger.info('Event: {}'.format(event))\n        logger.info('Context: {}'.format(str(context)))\n        table_name = os.getenv('DDB_TABLE')\n        if (not table_name):\n            raise Exception('Table name missing') \n        try:",
+        "detail": "python.lambda.delete_todo",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "kind": 2,
+        "importPath": "python.lambda.get_todo",
+        "description": "python.lambda.get_todo",
+        "peekOfCode": "def lambda_handler(event, context):\n    try:\n        logger.info('Event: {}'.format(event))\n        logger.info('Context: {}'.format(str(context)))\n        table_name = os.getenv('DDB_TABLE')\n        if (not table_name):\n            raise Exception('Table name missing') \n        try:\n            id = event['pathParameters']['id']\n        except Exception as error:",
+        "detail": "python.lambda.get_todo",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "python.lambda.get_todo",
+        "description": "python.lambda.get_todo",
+        "peekOfCode": "logger = logging.getLogger()\nlogger.setLevel(logging.INFO)\ndef lambda_handler(event, context):\n    try:\n        logger.info('Event: {}'.format(event))\n        logger.info('Context: {}'.format(str(context)))\n        table_name = os.getenv('DDB_TABLE')\n        if (not table_name):\n            raise Exception('Table name missing') \n        try:",
+        "detail": "python.lambda.get_todo",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "kind": 2,
+        "importPath": "python.lambda.get_todos",
+        "description": "python.lambda.get_todos",
+        "peekOfCode": "def lambda_handler(event, context):\n    try:\n        logger.info('Event: {}'.format(event))\n        logger.info('Context: {}'.format(str(context)))\n        table_name = os.getenv('DDB_TABLE')\n        if (not table_name):\n            raise Exception('Table name missing') \n        dynamodb = boto3.resource('dynamodb')\n        ddb_table = dynamodb.Table(table_name)\n        items = ddb_table.scan()",
+        "detail": "python.lambda.get_todos",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "python.lambda.get_todos",
+        "description": "python.lambda.get_todos",
+        "peekOfCode": "logger = logging.getLogger()\nlogger.setLevel(logging.INFO)\ndef lambda_handler(event, context):\n    try:\n        logger.info('Event: {}'.format(event))\n        logger.info('Context: {}'.format(str(context)))\n        table_name = os.getenv('DDB_TABLE')\n        if (not table_name):\n            raise Exception('Table name missing') \n        dynamodb = boto3.resource('dynamodb')",
+        "detail": "python.lambda.get_todos",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "kind": 2,
+        "importPath": "python.lambda.update_todo",
+        "description": "python.lambda.update_todo",
+        "peekOfCode": "def lambda_handler(event, context):\n    try:\n        logger.info('Event: {}'.format(event))\n        logger.info('Context: {}'.format(str(context)))\n        table_name = os.getenv('DDB_TABLE')\n        if (not table_name):\n            raise Exception('Table name missing')\n        try:\n            id = event['pathParameters']['id']\n        except Exception as error:",
+        "detail": "python.lambda.update_todo",
+        "documentation": {}
+    },
+    {
+        "label": "buildUpdateExpression",
+        "kind": 2,
+        "importPath": "python.lambda.update_todo",
+        "description": "python.lambda.update_todo",
+        "peekOfCode": "def buildUpdateExpression(payload):\n    updateExpression = 'set '\n    if ('title' in payload):\n        updateExpression += 'title = :t, '\n    if ('completed' in payload):\n        updateExpression += 'completed = :c, '\n    if ('description' in payload):\n        updateExpression += 'description = :d, '\n    return updateExpression[:-2]\ndef buildAttributeValues(payload):",
+        "detail": "python.lambda.update_todo",
+        "documentation": {}
+    },
+    {
+        "label": "buildAttributeValues",
+        "kind": 2,
+        "importPath": "python.lambda.update_todo",
+        "description": "python.lambda.update_todo",
+        "peekOfCode": "def buildAttributeValues(payload):\n    attributes = {}\n    if ('title' in payload):\n        attributes[':t'] = payload['title']\n    if ('completed' in payload):\n        attributes[':c'] = payload['completed']\n    if ('description' in payload):\n        attributes[':d'] = payload['description']\n    return attributes",
+        "detail": "python.lambda.update_todo",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "python.lambda.update_todo",
+        "description": "python.lambda.update_todo",
+        "peekOfCode": "logger = logging.getLogger()\nlogger.setLevel(logging.INFO)\ndef lambda_handler(event, context):\n    try:\n        logger.info('Event: {}'.format(event))\n        logger.info('Context: {}'.format(str(context)))\n        table_name = os.getenv('DDB_TABLE')\n        if (not table_name):\n            raise Exception('Table name missing')\n        try:",
+        "detail": "python.lambda.update_todo",
+        "documentation": {}
+    },
+    {
+        "label": "PythonStack",
+        "kind": 6,
+        "importPath": "python.python_stack",
+        "description": "python.python_stack",
+        "peekOfCode": "class PythonStack(Stack):\n    def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:\n        super().__init__(scope, construct_id, **kwargs)\n        ddb = dynamodb.Table(self, 'TodosDB',\n            partition_key=dynamodb.Attribute(\n                name='id',\n                type=dynamodb.AttributeType.STRING\n            )\n        )\n        getTodos = lambda_.Function(self, 'getTodos',",
+        "detail": "python.python_stack",
+        "documentation": {}
+    },
+    {
+        "label": "ApiGatewayEndpointStackOutput",
+        "kind": 5,
+        "importPath": "python.python_stack",
+        "description": "python.python_stack",
+        "peekOfCode": "ApiGatewayEndpointStackOutput = 'ApiEndpoint'\nApiGatewayDomainStackOutput = 'ApiDomain'\nApiGatewayStageStackOutput = 'ApiStage'\nclass PythonStack(Stack):\n    def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:\n        super().__init__(scope, construct_id, **kwargs)\n        ddb = dynamodb.Table(self, 'TodosDB',\n            partition_key=dynamodb.Attribute(\n                name='id',\n                type=dynamodb.AttributeType.STRING",
+        "detail": "python.python_stack",
+        "documentation": {}
+    },
+    {
+        "label": "ApiGatewayDomainStackOutput",
+        "kind": 5,
+        "importPath": "python.python_stack",
+        "description": "python.python_stack",
+        "peekOfCode": "ApiGatewayDomainStackOutput = 'ApiDomain'\nApiGatewayStageStackOutput = 'ApiStage'\nclass PythonStack(Stack):\n    def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:\n        super().__init__(scope, construct_id, **kwargs)\n        ddb = dynamodb.Table(self, 'TodosDB',\n            partition_key=dynamodb.Attribute(\n                name='id',\n                type=dynamodb.AttributeType.STRING\n            )",
+        "detail": "python.python_stack",
+        "documentation": {}
+    },
+    {
+        "label": "ApiGatewayStageStackOutput",
+        "kind": 5,
+        "importPath": "python.python_stack",
+        "description": "python.python_stack",
+        "peekOfCode": "ApiGatewayStageStackOutput = 'ApiStage'\nclass PythonStack(Stack):\n    def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:\n        super().__init__(scope, construct_id, **kwargs)\n        ddb = dynamodb.Table(self, 'TodosDB',\n            partition_key=dynamodb.Attribute(\n                name='id',\n                type=dynamodb.AttributeType.STRING\n            )\n        )",
+        "detail": "python.python_stack",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_all_todos",
+        "kind": 2,
+        "importPath": "tests.integ.test_integration",
+        "description": "tests.integ.test_integration",
+        "peekOfCode": "def test_get_all_todos():\n    stackName = stack_name\n    http = urllib3.PoolManager(num_pools=3)\n    global apiEndpoint\n    if (not apiEndpoint):\n        apiEndpoint = get_api_endpoint(stackName)\n    # Testing getting all todos\n    response = http.request('GET', apiEndpoint)\n    assert response.status == 200\ndef test_add_todo():",
+        "detail": "tests.integ.test_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_add_todo",
+        "kind": 2,
+        "importPath": "tests.integ.test_integration",
+        "description": "tests.integ.test_integration",
+        "peekOfCode": "def test_add_todo():\n    http = urllib3.PoolManager(num_pools=3)\n    global random_title\n    random_title = \"Integration Testing {}\".format(uuid4().hex)\n    todo = json.dumps({\"title\": random_title})\n    response = http.request('POST', apiEndpoint, \n        headers={'Content-Type': 'application/json'},\n        body=todo\n    )\n    assert response.status == 201",
+        "detail": "tests.integ.test_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_todo",
+        "kind": 2,
+        "importPath": "tests.integ.test_integration",
+        "description": "tests.integ.test_integration",
+        "peekOfCode": "def test_get_todo():\n    http = urllib3.PoolManager(num_pools=3)\n    response = http.request('GET', apiEndpoint)\n    response = json.loads(response.data.decode('utf-8'))\n    test_item = next(item for item in response if item['title'] == random_title)\n    global test_id\n    test_id = test_item['id']\n    response = http.request('GET', apiEndpoint + '/{}'.format(test_id))\n    assert response.status == 200\ndef test_update_todo():",
+        "detail": "tests.integ.test_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_update_todo",
+        "kind": 2,
+        "importPath": "tests.integ.test_integration",
+        "description": "tests.integ.test_integration",
+        "peekOfCode": "def test_update_todo():\n    http = urllib3.PoolManager(num_pools=3)\n    todo = json.dumps({\"completed\": \"True\"})\n    response = http.request('PUT', apiEndpoint + '/{}'.format(test_id),\n        headers={'Content-Type': 'application/json'},\n        body=todo   \n    )\n    response = json.loads(response.data.decode('utf-8'))\n    assert response['completed'] == 'True'\ndef test_delete_todo():",
+        "detail": "tests.integ.test_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_delete_todo",
+        "kind": 2,
+        "importPath": "tests.integ.test_integration",
+        "description": "tests.integ.test_integration",
+        "peekOfCode": "def test_delete_todo():\n    http = urllib3.PoolManager(num_pools=3)\n    response = http.request('DELETE', apiEndpoint + '/{}'.format(test_id))\n    assert response.status == 200\ndef get_api_endpoint(stackName):\n    cloudFormationClient = boto3.client('cloudformation')\n    stack = cloudFormationClient.describe_stacks(StackName=stackName)\n    stack = stack['Stacks'][0]\n    apiEndpoint = next(item for item in stack['Outputs'] if item['OutputKey'] == 'ApiEndpoint')\n    apiEndpoint = apiEndpoint['OutputValue'] + '/api'",
+        "detail": "tests.integ.test_integration",
+        "documentation": {}
+    },
+    {
+        "label": "get_api_endpoint",
+        "kind": 2,
+        "importPath": "tests.integ.test_integration",
+        "description": "tests.integ.test_integration",
+        "peekOfCode": "def get_api_endpoint(stackName):\n    cloudFormationClient = boto3.client('cloudformation')\n    stack = cloudFormationClient.describe_stacks(StackName=stackName)\n    stack = stack['Stacks'][0]\n    apiEndpoint = next(item for item in stack['Outputs'] if item['OutputKey'] == 'ApiEndpoint')\n    apiEndpoint = apiEndpoint['OutputValue'] + '/api'\n    return apiEndpoint + '/todos'",
+        "detail": "tests.integ.test_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_id",
+        "kind": 5,
+        "importPath": "tests.integ.test_integration",
+        "description": "tests.integ.test_integration",
+        "peekOfCode": "test_id = ''\nrandom_title = ''\napiEndpoint = None\ndef test_get_all_todos():\n    stackName = stack_name\n    http = urllib3.PoolManager(num_pools=3)\n    global apiEndpoint\n    if (not apiEndpoint):\n        apiEndpoint = get_api_endpoint(stackName)\n    # Testing getting all todos",
+        "detail": "tests.integ.test_integration",
+        "documentation": {}
+    },
+    {
+        "label": "random_title",
+        "kind": 5,
+        "importPath": "tests.integ.test_integration",
+        "description": "tests.integ.test_integration",
+        "peekOfCode": "random_title = ''\napiEndpoint = None\ndef test_get_all_todos():\n    stackName = stack_name\n    http = urllib3.PoolManager(num_pools=3)\n    global apiEndpoint\n    if (not apiEndpoint):\n        apiEndpoint = get_api_endpoint(stackName)\n    # Testing getting all todos\n    response = http.request('GET', apiEndpoint)",
+        "detail": "tests.integ.test_integration",
+        "documentation": {}
+    },
+    {
+        "label": "apiEndpoint",
+        "kind": 5,
+        "importPath": "tests.integ.test_integration",
+        "description": "tests.integ.test_integration",
+        "peekOfCode": "apiEndpoint = None\ndef test_get_all_todos():\n    stackName = stack_name\n    http = urllib3.PoolManager(num_pools=3)\n    global apiEndpoint\n    if (not apiEndpoint):\n        apiEndpoint = get_api_endpoint(stackName)\n    # Testing getting all todos\n    response = http.request('GET', apiEndpoint)\n    assert response.status == 200",
+        "detail": "tests.integ.test_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_resources_created",
+        "kind": 2,
+        "importPath": "tests.unit.cdk.test_python_stack",
+        "description": "tests.unit.cdk.test_python_stack",
+        "peekOfCode": "def test_resources_created():\n    app = core.App()\n    stack = PythonStack(app, \"python\")\n    template = assertions.Template.from_stack(stack)\n    template.resource_count_is(\"AWS::Lambda::Function\", 5)\n    template.resource_count_is(\"AWS::DynamoDB::Table\", 1)\n    template.resource_count_is(\"AWS::ApiGateway::RestApi\", 1)",
+        "detail": "tests.unit.cdk.test_python_stack",
+        "documentation": {}
+    },
+    {
+        "label": "aws_credentials",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_add_todo",
+        "description": "tests.unit.lambdas.test_add_todo",
+        "peekOfCode": "def aws_credentials():\n    \"\"\"Mocked AWS Credentials for moto.\"\"\"\n    os.environ['AWS_ACCESS_KEY_ID'] = 'testing'\n    os.environ['AWS_SECRET_ACCESS_KEY'] = 'testing'\n    os.environ['AWS_SECURITY_TOKEN'] = 'testing'\n    os.environ['AWS_SESSION_TOKEN'] = 'testing'\n    os.environ['AWS_DEFAULT_REGION'] = 'us-east-1'\n    os.environ['DDB_TABLE'] = 'DDB_TABLE'\ndef test_initialization(aws_credentials):\n    event = {}",
+        "detail": "tests.unit.lambdas.test_add_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_initialization",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_add_todo",
+        "description": "tests.unit.lambdas.test_add_todo",
+        "peekOfCode": "def test_initialization(aws_credentials):\n    event = {}\n    context = None\n    os.environ['DDB_TABLE'] = ''\n    payload = lambda_handler(event, context)\n    assert payload['statusCode'] == 500\ndef test_empty_event(aws_credentials):\n    event = {}\n    context = None\n    payload = lambda_handler(event, context)",
+        "detail": "tests.unit.lambdas.test_add_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_empty_event",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_add_todo",
+        "description": "tests.unit.lambdas.test_add_todo",
+        "peekOfCode": "def test_empty_event(aws_credentials):\n    event = {}\n    context = None\n    payload = lambda_handler(event, context)\n    assert payload['statusCode'] == 400\n@mock_dynamodb\ndef test_missing_title(aws_credentials):\n    event = { 'body': '{ \"not_title\": \"test\" }' }\n    context = None\n    payload = lambda_handler(event, context)",
+        "detail": "tests.unit.lambdas.test_add_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_missing_title",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_add_todo",
+        "description": "tests.unit.lambdas.test_add_todo",
+        "peekOfCode": "def test_missing_title(aws_credentials):\n    event = { 'body': '{ \"not_title\": \"test\" }' }\n    context = None\n    payload = lambda_handler(event, context)\n    body = json.loads(payload['body'])\n    assert body['message'] == 'Title missing'\n@mock_dynamodb\ndef test_valid_request(aws_credentials):\n    event = { 'body': '{\"title\": \"Unit Testing\"}' }\n    context = None",
+        "detail": "tests.unit.lambdas.test_add_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_valid_request",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_add_todo",
+        "description": "tests.unit.lambdas.test_add_todo",
+        "peekOfCode": "def test_valid_request(aws_credentials):\n    event = { 'body': '{\"title\": \"Unit Testing\"}' }\n    context = None\n    create_mock_ddb_table()\n    os.environ['DDB_TABLE'] = 'DDB_TABLE'\n    payload = lambda_handler(event, context)\n    assert payload['statusCode'] == 201\n@mock_dynamodb\ndef create_mock_ddb_table():\n    mock_ddb = boto3.resource('dynamodb')",
+        "detail": "tests.unit.lambdas.test_add_todo",
+        "documentation": {}
+    },
+    {
+        "label": "create_mock_ddb_table",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_add_todo",
+        "description": "tests.unit.lambdas.test_add_todo",
+        "peekOfCode": "def create_mock_ddb_table():\n    mock_ddb = boto3.resource('dynamodb')\n    mock_ddb.create_table(\n        TableName='DDB_TABLE',\n        AttributeDefinitions=[\n            {\n                'AttributeName': 'id',\n                'AttributeType': 'S'\n            },\n        ],",
+        "detail": "tests.unit.lambdas.test_add_todo",
+        "documentation": {}
+    },
+    {
+        "label": "aws_credentials",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_delete_todo",
+        "description": "tests.unit.lambdas.test_delete_todo",
+        "peekOfCode": "def aws_credentials():\n    \"\"\"Mocked AWS Credentials for moto.\"\"\"\n    os.environ['AWS_ACCESS_KEY_ID'] = 'testing'\n    os.environ['AWS_SECRET_ACCESS_KEY'] = 'testing'\n    os.environ['AWS_SECURITY_TOKEN'] = 'testing'\n    os.environ['AWS_SESSION_TOKEN'] = 'testing'\n    os.environ['AWS_DEFAULT_REGION'] = 'us-east-1'\n    os.environ['DDB_TABLE'] = 'DDB_TABLE'\ndef test_initialization(aws_credentials):\n    event = {}",
+        "detail": "tests.unit.lambdas.test_delete_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_initialization",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_delete_todo",
+        "description": "tests.unit.lambdas.test_delete_todo",
+        "peekOfCode": "def test_initialization(aws_credentials):\n    event = {}\n    context = None\n    os.environ['DDB_TABLE'] = ''\n    payload = lambda_handler(event, context)\n    assert payload['statusCode'] == 500\ndef test_empty_event(aws_credentials):\n    event = {}\n    context = None\n    payload = lambda_handler(event, context)",
+        "detail": "tests.unit.lambdas.test_delete_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_empty_event",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_delete_todo",
+        "description": "tests.unit.lambdas.test_delete_todo",
+        "peekOfCode": "def test_empty_event(aws_credentials):\n    event = {}\n    context = None\n    payload = lambda_handler(event, context)\n    assert payload['statusCode'] == 400\n@mock_dynamodb\ndef test_valid_request(aws_credentials):\n    event = { 'pathParameters':\n        {\n            'id': '123'",
+        "detail": "tests.unit.lambdas.test_delete_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_valid_request",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_delete_todo",
+        "description": "tests.unit.lambdas.test_delete_todo",
+        "peekOfCode": "def test_valid_request(aws_credentials):\n    event = { 'pathParameters':\n        {\n            'id': '123'\n        }\n    }\n    context = None\n    create_mock_ddb_table()\n    payload = lambda_handler(event, context)\n    assert payload['statusCode'] == 204",
+        "detail": "tests.unit.lambdas.test_delete_todo",
+        "documentation": {}
+    },
+    {
+        "label": "create_mock_ddb_table",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_delete_todo",
+        "description": "tests.unit.lambdas.test_delete_todo",
+        "peekOfCode": "def create_mock_ddb_table():\n    mock_ddb = boto3.resource('dynamodb')\n    mock_ddb.create_table(\n        TableName='DDB_TABLE',\n        AttributeDefinitions=[\n            {\n                'AttributeName': 'id',\n                'AttributeType': 'S'\n            },\n        ],",
+        "detail": "tests.unit.lambdas.test_delete_todo",
+        "documentation": {}
+    },
+    {
+        "label": "aws_credentials",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_get_todo",
+        "description": "tests.unit.lambdas.test_get_todo",
+        "peekOfCode": "def aws_credentials():\n    \"\"\"Mocked AWS Credentials for moto.\"\"\"\n    os.environ['AWS_ACCESS_KEY_ID'] = 'testing'\n    os.environ['AWS_SECRET_ACCESS_KEY'] = 'testing'\n    os.environ['AWS_SECURITY_TOKEN'] = 'testing'\n    os.environ['AWS_SESSION_TOKEN'] = 'testing'\n    os.environ['AWS_DEFAULT_REGION'] = 'us-east-1'\n    os.environ['DDB_TABLE'] = 'DDB_TABLE'\ndef test_initialization(aws_credentials):\n    event = {}",
+        "detail": "tests.unit.lambdas.test_get_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_initialization",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_get_todo",
+        "description": "tests.unit.lambdas.test_get_todo",
+        "peekOfCode": "def test_initialization(aws_credentials):\n    event = {}\n    context = None\n    os.environ['DDB_TABLE'] = ''\n    payload = lambda_handler(event, context)\n    assert payload['statusCode'] == 500\ndef test_empty_event(aws_credentials):\n    event = {}\n    context = None\n    payload = lambda_handler(event, context)",
+        "detail": "tests.unit.lambdas.test_get_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_empty_event",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_get_todo",
+        "description": "tests.unit.lambdas.test_get_todo",
+        "peekOfCode": "def test_empty_event(aws_credentials):\n    event = {}\n    context = None\n    payload = lambda_handler(event, context)\n    assert payload['statusCode'] == 400\n@mock_dynamodb\ndef test_valid_request(aws_credentials):\n    event = { 'pathParameters':\n        {\n            'id': '123'",
+        "detail": "tests.unit.lambdas.test_get_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_valid_request",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_get_todo",
+        "description": "tests.unit.lambdas.test_get_todo",
+        "peekOfCode": "def test_valid_request(aws_credentials):\n    event = { 'pathParameters':\n        {\n            'id': '123'\n        }\n    }\n    context = None\n    create_mock_ddb_table()\n    payload = lambda_handler(event, context)\n    assert payload['statusCode'] == 200",
+        "detail": "tests.unit.lambdas.test_get_todo",
+        "documentation": {}
+    },
+    {
+        "label": "create_mock_ddb_table",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_get_todo",
+        "description": "tests.unit.lambdas.test_get_todo",
+        "peekOfCode": "def create_mock_ddb_table():\n    mock_ddb = boto3.resource('dynamodb')\n    mock_ddb.create_table(\n        TableName='DDB_TABLE',\n        AttributeDefinitions=[\n            {\n                'AttributeName': 'id',\n                'AttributeType': 'S'\n            },\n        ],",
+        "detail": "tests.unit.lambdas.test_get_todo",
+        "documentation": {}
+    },
+    {
+        "label": "aws_credentials",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_get_todos",
+        "description": "tests.unit.lambdas.test_get_todos",
+        "peekOfCode": "def aws_credentials():\n    \"\"\"Mocked AWS Credentials for moto.\"\"\"\n    os.environ['AWS_ACCESS_KEY_ID'] = 'testing'\n    os.environ['AWS_SECRET_ACCESS_KEY'] = 'testing'\n    os.environ['AWS_SECURITY_TOKEN'] = 'testing'\n    os.environ['AWS_SESSION_TOKEN'] = 'testing'\n    os.environ['AWS_DEFAULT_REGION'] = 'us-east-1'\n    os.environ['DDB_TABLE'] = 'DDB_TABLE'\ndef test_initialization(aws_credentials):\n    event = {}",
+        "detail": "tests.unit.lambdas.test_get_todos",
+        "documentation": {}
+    },
+    {
+        "label": "test_initialization",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_get_todos",
+        "description": "tests.unit.lambdas.test_get_todos",
+        "peekOfCode": "def test_initialization(aws_credentials):\n    event = {}\n    context = None\n    os.environ['DDB_TABLE'] = ''\n    payload = lambda_handler(event, context)\n    assert payload['statusCode'] == 500\n@mock_dynamodb\ndef test_valid_request(aws_credentials):\n    event = {}\n    context = None",
+        "detail": "tests.unit.lambdas.test_get_todos",
+        "documentation": {}
+    },
+    {
+        "label": "test_valid_request",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_get_todos",
+        "description": "tests.unit.lambdas.test_get_todos",
+        "peekOfCode": "def test_valid_request(aws_credentials):\n    event = {}\n    context = None\n    create_mock_ddb_table()\n    payload = lambda_handler(event, context)\n    assert payload['statusCode'] == 200\n@mock_dynamodb\ndef create_mock_ddb_table():\n    mock_ddb = boto3.resource('dynamodb')\n    mock_ddb.create_table(",
+        "detail": "tests.unit.lambdas.test_get_todos",
+        "documentation": {}
+    },
+    {
+        "label": "create_mock_ddb_table",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_get_todos",
+        "description": "tests.unit.lambdas.test_get_todos",
+        "peekOfCode": "def create_mock_ddb_table():\n    mock_ddb = boto3.resource('dynamodb')\n    mock_ddb.create_table(\n        TableName='DDB_TABLE',\n        AttributeDefinitions=[\n            {\n                'AttributeName': 'id',\n                'AttributeType': 'S'\n            },\n        ],",
+        "detail": "tests.unit.lambdas.test_get_todos",
+        "documentation": {}
+    },
+    {
+        "label": "aws_credentials",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_update_todo",
+        "description": "tests.unit.lambdas.test_update_todo",
+        "peekOfCode": "def aws_credentials():\n    \"\"\"Mocked AWS Credentials for moto.\"\"\"\n    os.environ['AWS_ACCESS_KEY_ID'] = 'testing'\n    os.environ['AWS_SECRET_ACCESS_KEY'] = 'testing'\n    os.environ['AWS_SECURITY_TOKEN'] = 'testing'\n    os.environ['AWS_SESSION_TOKEN'] = 'testing'\n    os.environ['AWS_DEFAULT_REGION'] = 'us-east-1'\n    os.environ['DDB_TABLE'] = 'DDB_TABLE'\ndef test_initialization(aws_credentials):\n    event = {}",
+        "detail": "tests.unit.lambdas.test_update_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_initialization",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_update_todo",
+        "description": "tests.unit.lambdas.test_update_todo",
+        "peekOfCode": "def test_initialization(aws_credentials):\n    event = {}\n    context = None\n    os.environ['DDB_TABLE'] = ''\n    payload = lambda_handler(event, context)\n    assert payload['statusCode'] == 500\ndef test_empty_event(aws_credentials):\n    event = {}\n    context = None\n    payload = lambda_handler(event, context)",
+        "detail": "tests.unit.lambdas.test_update_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_empty_event",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_update_todo",
+        "description": "tests.unit.lambdas.test_update_todo",
+        "peekOfCode": "def test_empty_event(aws_credentials):\n    event = {}\n    context = None\n    payload = lambda_handler(event, context)\n    assert payload['statusCode'] == 400\ndef test_empty_body(aws_credentials):\n    event = { 'pathParameters':\n        {\n            'id': '123'\n        }",
+        "detail": "tests.unit.lambdas.test_update_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_empty_body",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_update_todo",
+        "description": "tests.unit.lambdas.test_update_todo",
+        "peekOfCode": "def test_empty_body(aws_credentials):\n    event = { 'pathParameters':\n        {\n            'id': '123'\n        }\n    }\n    context = None\n    payload = lambda_handler(event, context)\n    assert payload['statusCode'] == 400\ndef test_missing_keys(aws_credentials):",
+        "detail": "tests.unit.lambdas.test_update_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_missing_keys",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_update_todo",
+        "description": "tests.unit.lambdas.test_update_todo",
+        "peekOfCode": "def test_missing_keys(aws_credentials):\n    event = { \n        'pathParameters': {\n            'id': '123'\n        },\n        'body': '{\"not_title\": \"testing\"}'\n    }\n    context = None\n    payload = lambda_handler(event, context)\n    body = json.loads(payload['body'])",
+        "detail": "tests.unit.lambdas.test_update_todo",
+        "documentation": {}
+    },
+    {
+        "label": "test_valid_request",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_update_todo",
+        "description": "tests.unit.lambdas.test_update_todo",
+        "peekOfCode": "def test_valid_request(aws_credentials):\n    event = { \n        'pathParameters': {\n            'id': '123'\n        },\n        'body': '{\"title\": \"testing\"}'\n    }\n    context = None\n    create_mock_ddb_table()\n    payload = lambda_handler(event, context)",
+        "detail": "tests.unit.lambdas.test_update_todo",
+        "documentation": {}
+    },
+    {
+        "label": "create_mock_ddb_table",
+        "kind": 2,
+        "importPath": "tests.unit.lambdas.test_update_todo",
+        "description": "tests.unit.lambdas.test_update_todo",
+        "peekOfCode": "def create_mock_ddb_table():\n    mock_ddb = boto3.resource('dynamodb')\n    mock_ddb.create_table(\n        TableName='DDB_TABLE',\n        AttributeDefinitions=[\n            {\n                'AttributeName': 'id',\n                'AttributeType': 'S'\n            },\n        ],",
+        "detail": "tests.unit.lambdas.test_update_todo",
+        "documentation": {}
+    },
+    {
+        "label": "stack_name",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "stack_name = 'TodoAppBackendStack-yjcit' if 'LOCAL_TESTING' not in os.environ else 'PythonStack'\napp = cdk.App()\nPythonStack(app, stack_name,\n    # If you don't specify 'env', this stack will be environment-agnostic.\n    # Account/Region-dependent features and context lookups will not work,\n    # but a single synthesized template can be deployed anywhere.\n    # Uncomment the next line to specialize this stack for the AWS Account\n    # and Region that are implied by the current CLI configuration.\n    #env=cdk.Environment(account=os.getenv('CDK_DEFAULT_ACCOUNT'), region=os.getenv('CDK_DEFAULT_REGION')),\n    # Uncomment the next line if you know exactly what Account and Region you",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = cdk.App()\nPythonStack(app, stack_name,\n    # If you don't specify 'env', this stack will be environment-agnostic.\n    # Account/Region-dependent features and context lookups will not work,\n    # but a single synthesized template can be deployed anywhere.\n    # Uncomment the next line to specialize this stack for the AWS Account\n    # and Region that are implied by the current CLI configuration.\n    #env=cdk.Environment(account=os.getenv('CDK_DEFAULT_ACCOUNT'), region=os.getenv('CDK_DEFAULT_REGION')),\n    # Uncomment the next line if you know exactly what Account and Region you\n    # want to deploy the stack to. */",
+        "detail": "app",
+        "documentation": {}
+    }
+]
